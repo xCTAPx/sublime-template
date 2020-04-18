@@ -1,0 +1,104 @@
+.blogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.blogs-title {
+  padding: 51px 0 0 81px; }
+
+.blogs-title__title {
+  display: inline-block;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #c5c5c5;
+  font-size: 1.875rem; }
+  .blogs-title__title::first-letter {
+    color: #ffc600; }
+
+.blogs__left-column {
+  width: 34%; }
+
+.blogs__nav {
+  padding: 48px 0 82px 35%; }
+
+.blogs__nav__menu__item__link {
+  font-size: 1rem; }
+  .blogs__nav__menu__item__link:hover {
+    color: #ffc600; }
+
+.blogs__nav__menu__item {
+  padding-bottom: 28px; }
+
+.blogs__nav__menu__item__link_current {
+  color: #ffc600; }
+
+.blogs__right-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 30px;
+  width: 60%; }
+
+.blogs__right-column__item {
+  text-align: left;
+  width: 25%; }
+
+.blogs__right-column__item__img {
+  width: 90%;
+  height: auto; }
+
+.blogs__right-column__item__date {
+  font-size: 1rem;
+  color: #ffca21;
+  padding: 8px 0 23px 0; }
+
+.blogs__right-column__item__description {
+  font-size: 0.835rem;
+  font-weight: bold;
+  padding-bottom: 15px; }
+
+.blogs__right-column__item__text {
+  font-weight: normal;
+  font-size: 0.67rem;
+  font-style: italic; }
+
+@media screen and (max-width: 847px) {
+  .blogs__right-column__item {
+    text-align: left;
+    width: 25%; }
+
+  .blogs__right-column {
+    padding-top: 80px;
+    width: 60%; } }
+@media screen and (max-width: 672px) {
+  .blogs-title {
+    padding: 51px 0 0 40px; }
+
+  .blogs__nav {
+    padding: 48px 0 82px 40px; } }
+@media screen and (max-width: 480px) {
+  .blogs__right-column {
+    display: block; }
+
+  .blogs__right-column__item {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%; }
+
+  .blogs__nav__menu__item__link {
+    font-size: 1.2rem; }
+    .blogs__nav__menu__item__link:hover {
+      color: #ffc600; }
+
+  .blogs__nav__menu__item {
+    padding-bottom: 32px; }
+
+  .blogs__right-column__item__text {
+    padding-bottom: 5px; }
+
+  .blogs__left-column {
+    width: 40%; } }
+
+/*# sourceMappingURL=blogs.css.map */

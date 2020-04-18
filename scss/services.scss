@@ -1,0 +1,81 @@
+.services {
+    background: url(../images/joker-bg.jpg) no-repeat center top/cover;
+    background-size: 100% 100%;
+}
+
+.services-title {
+    padding: 51px 0 0 81px;
+    
+    color: #fff;
+}
+
+.services-title__title {
+    font-size: 1.875rem;
+    &::first-letter {
+        color: #ffc600;
+    }
+}
+
+.services-title__underline {
+    display: inline-block;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.flex-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.services-content {
+    width: 48%;
+    margin-right: 14%;
+    padding-bottom: 55px;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.services-content__item {
+    width: 40%;
+
+    color: #fff;
+    text-align: left;
+}
+
+.services-content__item__title {
+    font-size: 1rem;
+    
+    padding: 69px 0 22px 0;
+}
+
+.services-content__item__text {
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 892px) {
+    .services-content {
+        width: 100%;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .services-content {
+        padding-bottom: 25px;
+    }
+    .services-content__item {
+        margin-top: -50px;
+        width: 48%;
+    }
+}
